@@ -1,6 +1,5 @@
 package com.example.task04;
 
-// Создаем собственный класс исключения, наследуемый от IllegalArgumentException
 class MyException extends IllegalArgumentException {
     public MyException(String message) {
         super(message);
